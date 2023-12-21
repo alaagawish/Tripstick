@@ -27,26 +27,26 @@
                                                 <rect key="frame" x="0.0" y="20.000000000000004" width="393" height="32.333333333333343"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nBm-z9-I6m">
-                                                        <rect key="frame" x="0.0" y="-2.0000000000000036" width="78.666666666666671" height="36.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="-2.0000000000000036" width="39.333333333333336" height="36.666666666666671"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tripstick" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsw-9g-THy">
-                                                        <rect key="frame" x="78.666666666666686" y="0.0" width="157" height="32.333333333333336"/>
+                                                        <rect key="frame" x="39.333333333333343" y="0.0" width="275" height="32.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                                         <color key="textColor" name="AccentColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ctg-W8-B2U">
-                                                        <rect key="frame" x="235.66666666666666" y="1.9999999999999964" width="78.666666666666657" height="29.333333333333329"/>
+                                                        <rect key="frame" x="314.33333333333331" y="1.9999999999999964" width="39.333333333333314" height="29.333333333333329"/>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="F23-X5-Qhp">
-                                                        <rect key="frame" x="314.33333333333331" y="0.66666666666666785" width="78.666666666666686" height="31.333333333333332"/>
+                                                        <rect key="frame" x="353.66666666666669" y="0.66666666666666785" width="39.333333333333314" height="31.333333333333332"/>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="Ctg-W8-B2U" firstAttribute="width" secondItem="nBm-z9-I6m" secondAttribute="width" id="MKO-ph-ivd"/>
-                                                    <constraint firstItem="nBm-z9-I6m" firstAttribute="width" secondItem="v0B-vf-69V" secondAttribute="width" multiplier="0.2" id="Rer-fW-r1D"/>
+                                                    <constraint firstItem="nBm-z9-I6m" firstAttribute="width" secondItem="v0B-vf-69V" secondAttribute="width" multiplier="0.1" id="Rer-fW-r1D"/>
                                                     <constraint firstItem="F23-X5-Qhp" firstAttribute="width" secondItem="Ctg-W8-B2U" secondAttribute="width" id="ib3-kl-9rr"/>
                                                 </constraints>
                                             </stackView>
@@ -306,7 +306,7 @@ lifetime trip</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zGg-Ti-uXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1192" y="705"/>
+            <point key="canvasLocation" x="-1028" y="777"/>
         </scene>
         <!--Trips-->
         <scene sceneID="iel-tP-Qjp">
@@ -322,7 +322,7 @@ lifetime trip</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2y-CK-Pfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="705"/>
+            <point key="canvasLocation" x="-291" y="777"/>
         </scene>
         <!--Share-->
         <scene sceneID="ARv-kc-Ghx">
@@ -338,7 +338,7 @@ lifetime trip</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mqA-6o-kmU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="717"/>
+            <point key="canvasLocation" x="363" y="218"/>
         </scene>
         <!--Account-->
         <scene sceneID="jAD-di-Vvv">
@@ -354,7 +354,7 @@ lifetime trip</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pGh-W9-pjC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2120" y="487"/>
+            <point key="canvasLocation" x="-1785" y="777"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nkR-I3-6sZ">
